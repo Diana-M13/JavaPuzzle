@@ -5,8 +5,14 @@ import java.util.Map;
 
 public class CharCount {
     public static void main(String[] args) {
+
         charCount("Diana");
     }
+
+//Write a method called charCount that takes a string as input
+// and counts how many times each character appears in that string.
+// The method should print a map (or dictionary) where keys are characters,
+// and values are the counts of those characters.
 
 
     public static void charCount(String text) {
@@ -21,7 +27,7 @@ public class CharCount {
             }
 
 
-        }            System.out.println(charCount);
-
+        }
+        System.out.println(charCount);
     }
 }
